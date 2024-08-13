@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e47ebf8f54576d44824e2d10a8e6be9, type: 3}
+  m_Name: Board Item Setups
+  m_EditorClassIdentifier: 
+  CubeSettings:
+  - Type: 1
+    DefaultSprite: {fileID: 21300000, guid: 45852fa1570e3294f9245ce54702f1f9, type: 3}
+    RocketSprite: {fileID: 21300000, guid: a313c660e1cbceb4882828f9cfab128f, type: 3}
+    TntSprite: {fileID: 21300000, guid: a6d27a0a46eded743b379ee7faf50030, type: 3}
+    ParticleSprite: {fileID: 2800000, guid: 60bdd5eeed05f134bba102c57904f048, type: 3}
+  - Type: 2
+    DefaultSprite: {fileID: 21300000, guid: cfab7b77bd3443a4a9216677bcc3cd09, type: 3}
+    RocketSprite: {fileID: 21300000, guid: c54c03efb2a480f42924f2a559f35bdd, type: 3}
+    TntSprite: {fileID: 21300000, guid: 96c7fbcdcefceac4f972affb7ad84e29, type: 3}
+    ParticleSprite: {fileID: 2800000, guid: 4d8d7977d99f43e4389fc4bdafe10742, type: 3}
+  - Type: 3
+    DefaultSprite: {fileID: 21300000, guid: 594c60702cbcb6f45b3264c2ed8ef78a, type: 3}
+    RocketSprite: {fileID: 21300000, guid: 70ade29b226bafc409c7276fa56a4a24, type: 3}
+    TntSprite: {fileID: 21300000, guid: 50a586d4a5a039743a9ae057d378b855, type: 3}
+    ParticleSprite: {fileID: 2800000, guid: 07d76faf3e7d322438ca87c56ed0ee7c, type: 3}
+  - Type: 4
+    DefaultSprite: {fileID: 21300000, guid: de847b7ff581d084c94fdfe9b06336af, type: 3}
+    RocketSprite: {fileID: 21300000, guid: 59d6f34ffe73d1a42b01315dac065207, type: 3}
+    TntSprite: {fileID: 21300000, guid: 897d733342e1ffc47a50f106f77cf25d, type: 3}
+    ParticleSprite: {fileID: 2800000, guid: 41d4e951a906e1e4587b7583182c962e, type: 3}
+  VaseSetting:
+    DefaultSprite: {fileID: 21300000, guid: 90d9415a663fbf043b977419e120c318, type: 3}
+    CrackedSprite: {fileID: 21300000, guid: 7f25e5520014afc47b898eacf9f9cd86, type: 3}
+  RocketSetting:
+    Horizontal: {fileID: 21300000, guid: 0c23eac80d851cf49b0e862c80d654bf, type: 3}
+    Vertical: {fileID: 21300000, guid: 6f591301c7273ee4ab648e3afaa2baaa, type: 3}

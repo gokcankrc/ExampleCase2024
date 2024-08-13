@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3460404589536112323
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 148876962591352984, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148876962591352984, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148876962591352984, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148876962591352984, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 148876962591352984, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148876962591352984, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148876962591352984, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148876962591352984, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148876962591352984, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 148876962591352984, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2668855639563259955, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c579d1a17634f424c97be8d1a121a890, type: 3}
+    - target: {fileID: 3084897362507218092, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_Name
+      value: TntItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 3084897362507218092, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3084897362507218092, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2257377385104613113}
+  m_SourcePrefab: {fileID: 100100000, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+--- !u!212 &1516725384460713712 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2668855639563259955, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+  m_PrefabInstance: {fileID: 3460404589536112323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1930375651364590191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3084897362507218092, guid: e4ce1d989b3e7dc4da4bb190b963281d, type: 3}
+  m_PrefabInstance: {fileID: 3460404589536112323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2257377385104613113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930375651364590191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70881f86e9bbae6449e5a0d93e636c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spriteRenderer: {fileID: 1516725384460713712}
+  _specialType: 2
+  _explodeFx:
+    ParticleObject: {fileID: 2491496011120063412, guid: 680c860ba11892e44bff2322142d76be, type: 3}

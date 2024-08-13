@@ -1,0 +1,18 @@
+{
+    "name": "Game.Vfx",
+    "rootNamespace": "",
+    "references": [
+        "GUID:12f689d56923ea045bba9446e4a783ea",
+        "GUID:74dbc8c0b5ffdcb418e21a3fc76dd3c7",
+        "GUID:b6cc1f936746e624b9d534faed9efa38"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
